@@ -1,0 +1,23 @@
+
+<h1>Hello {{name}}</h1>
+<form action="shortest_path1" method=POST enctype="multipart/form-data">
+    {%csrf_token%}
+    Upload Cost Matrix (.csv)<input type="file" name="Cost_matrix"><br>
+    Upload Cost Matrix for two graphs at source (.csv)<input type="file" name="Endgraphs_Cost"><br>
+    Upload right Cost Matrix (.csv)<input type="file" name="'Graph_right'"><br>
+    Number of nodes near source<input type="text" name="graph_at_source"><br>
+    File_type<input type="text" name="file_type"><br>
+    Row=<input type="text" name="edit_row"><br>
+    Column=<input type="text" name="edit_column"><br>
+    Cost=<input type="text" name="cost"><br>
+    Number of layers=<input type="text" name="number of layers"><br>
+    Start point latitude=<input type="text" name="Start point latitude"><br>
+    Start point longitude=<input type="text" name="Start point longitude"><br>
+    End point latitude=<input type="text" name="End point latitude"><br>
+    End point longitude=<input type="text" name="End point longitude"><br>
+    Enter your gmap API key=<input type="text" name="enter your gmap API key"><br>    
+    <input type= "submit", name="shortest path", value="shortest path">
+    <input type="submit", name="GoogleMaps", value="GoogleMaps">
+</form>
+
+ 
