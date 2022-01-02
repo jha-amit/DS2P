@@ -8,7 +8,7 @@ using a heuristics 'Optimal transmission network topology for resilient power su
 The algorithm uses the following set up and processes:
 1. The project area is represented as a diamond shape biconnected digraph and two such orthogonal graphs are combine as a 3D graph using affine transformations.
    This 3D embedding only allows eligible combination of nodes from 2D graph that provide embedded separation constraint and biconnectivity constraint in the 3D graph edges.
-   ![2-Paths plan view](Images/snippet app.jpg?raw=true "Optional Title")
+   ![2-Paths plan view](https://github.com/jha-amit/DS2P/tree/master/Images?raw=true "Optional Title")
    
 2. A single shortest path is computed in the 3D which overcomes the computational intractibility of finding disjoint paths with constraints on a graph in polynomial time.
 3. This single least-cost path in 3D is projectes back to 2D grpahs. Following images may help to clear out the process.
