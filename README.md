@@ -3,6 +3,7 @@ We realized that in hilly areas where the ground is higly undulating, the availa
 packages may give suboptimal soulution as they usually find two consecutive least-cost paths separated by the minimum
 distance which may be more expensive than some combination of two paths. So we minimize the combined cost of paths 
 using a heuristics 'Optimal transmission network topology for resilient power supply' developed by \cite{Zinchenko Y. et al. 2016}.
+https://github.com/jha-amit/DS2P/issues/1#issue-1091936540
 
 The algorithm uses the following set up and processes:
 1. The project area is represented as a diamond shape biconnected digraph and two such orthogonal graphs are combine as a 3D graph using affine transformations.
