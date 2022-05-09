@@ -1,0 +1,9 @@
+h1 {
+color:red;
+text-align: left;
+font-size: 1pc;
+}
+p.intro {
+    font-style:italic;
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+h1 {
+    color:red;
+    text-align: left;
+    font-size: 1pc;
+    }
+    p.intro {
+        width:100%;
+        font-style:italic;
+        font-weight: bold;
+    }

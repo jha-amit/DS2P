@@ -1,0 +1,1 @@
+1. Diamond graph edge slope: This input 
