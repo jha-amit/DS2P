@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1%p8hzw#tbv53a(f=88htsm&8#h=vo)g5hyz@sj)f6xnv)bo6*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [] #it was blank, this is local ip address. Can be fed through a form. 
 
