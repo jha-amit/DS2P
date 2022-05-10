@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'DS2P'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A0DFF8C68D0E45FF9B69A1148FDB23C1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CCA296754EB24CB79B0DCEE6D747EB42 }}
